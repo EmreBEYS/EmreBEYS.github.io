@@ -1,15 +1,13 @@
 import { useMemo, useState } from "react";
 import { Link, useParams } from "react-router-dom";
-import { getCourseById, gradeInfo } from "../data/courses";
+import { getCourseById, getCourseFileCount, gradeInfo } from "../data/courses";
 
 function CourseDetail() {
   const { gradeId, courseId } = useParams();
   const course = getCourseById(courseId);
   const [selectedWeekIndex, setSelectedWeekIndex] = useState(0);
 
-  const totalPdfCount = useMemo(() => {
-    return course?.weeks?.reduce((total, week) => total + (week.pdfs?.length || 0), 0) || 0;
-  }, [course]);
+  const totalPdfCount = useMemo(() => getCourseFileCount(course || {}), [course]);
 
   if (!course) {
     return (
@@ -54,7 +52,7 @@ function CourseDetail() {
         <div className="course-stats">
           <div>
             <strong>{course.weeks?.length || 0}</strong>
-            <span>Bölüm</span>
+            <span>Hafta / Bölüm</span>
           </div>
 
           <div>
@@ -63,7 +61,7 @@ function CourseDetail() {
           </div>
 
           <div>
-            <strong>{course.status === "available" ? "Aktif" : "Planlı"}</strong>
+            <strong>{totalPdfCount > 0 ? "Not var" : course.status === "planned" ? "Planlı" : "Bekliyor"}</strong>
             <span>Durum</span>
           </div>
         </div>
@@ -79,20 +77,22 @@ function CourseDetail() {
           <aside className="week-sidebar pro-sidebar">
             <div className="sidebar-title">
               <span>Haftalar</span>
-              <strong>{String(selectedWeekIndex + 1).padStart(2, "0")}</strong>
+              <strong>{selectedWeek.week}. hafta</strong>
             </div>
 
-            {course.weeks.map((week, index) => (
-              <button
-                type="button"
-                key={`${week.week}-${week.title}`}
-                className={`week-item ${selectedWeekIndex === index ? "active" : ""}`}
-                onClick={() => setSelectedWeekIndex(index)}
-              >
-                <span>{String(week.week).padStart(2, "0")}</span>
-                <strong>{week.title}</strong>
-              </button>
-            ))}
+            <div className="week-tabs">
+              {course.weeks.map((week, index) => (
+                <button
+                  type="button"
+                  key={`${week.week}-${week.title}`}
+                  className={`week-item ${selectedWeekIndex === index ? "active" : ""}`}
+                  onClick={() => setSelectedWeekIndex(index)}
+                >
+                  <span>{String(week.week).padStart(2, "0")}</span>
+                  <strong>{week.title}</strong>
+                </button>
+              ))}
+            </div>
           </aside>
 
           <section className="week-content">

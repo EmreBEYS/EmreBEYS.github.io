@@ -542,8 +542,18 @@ export const courses = [
     name: "Veri Yapıları",
     icon: "🌳",
     description: "Liste, yığın, kuyruk, ağaç, graf ve temel veri yapıları.",
-    status: "planned",
-    weeks: [],
+    status: "available",
+    weeks: [
+      {
+        week: 2,
+        title: "Veri Yapıları — 2. Hafta",
+        summary: "İkinci haftaya ait veri yapıları ders notu.",
+        topics: [],
+        pdfs: [
+          { title: "Veri Yapıları — 2. Hafta Ders Notu", type: "PDF", file: "/pdf/Veri Yapıları/Veri Yapıları - 2. hafta Ders Notu.pdf" },
+        ],
+      },
+    ],
   },
   {
     id: "veri-madenciligi",
@@ -569,8 +579,27 @@ export const courses = [
     name: "Bilgisayar Müh. Gelişmeler",
     icon: "🚀",
     description: "Bilgisayar mühendisliğindeki güncel teknolojiler ve gelişmeler.",
-    status: "planned",
-    weeks: [],
+    status: "available",
+    weeks: [
+      {
+        week: 1,
+        title: "Bilgisayar Mühendisliğinde Gelişmeler — 1. Hafta",
+        summary: "Birinci haftaya ait ders notu.",
+        topics: [],
+        pdfs: [
+          { title: "Bilgisayar Mühendisliğinde Gelişmeler — 1. Hafta Ders Notu", type: "PDF", file: "/pdf/Bilgisayar Mühendisliğinde Gelişmeler/Bilgisayar Mühendisliğinde Gelişme 1.Hafta-ders Notu.pdf" },
+        ],
+      },
+      {
+        week: 2,
+        title: "Bilgisayar Mühendisliğinde Gelişmeler — 2. Hafta",
+        summary: "İkinci haftaya ait ders notu.",
+        topics: [],
+        pdfs: [
+          { title: "Bilgisayar Mühendisliğinde Gelişmeler — 2. Hafta Ders Notu", type: "PDF", file: "/pdf/Bilgisayar Mühendisliğinde Gelişmeler/Bilgisayar Mühendisliğinde Gelişme 2. Hafta Ders Notu.pdf" },
+        ],
+      },
+    ],
   },
   {
     id: "ag-guvenligi",
@@ -598,4 +627,15 @@ export function getCoursesByGrade(gradeId) {
 
 export function getCourseById(courseId) {
   return courses.find((course) => course.id === courseId);
+}
+
+export function getCourseFileCount(course) {
+  return course.weeks?.reduce(
+    (total, week) => total + (week.pdfs?.length || 0),
+    0,
+  ) || 0;
+}
+
+export function hasCourseNotes(course) {
+  return getCourseFileCount(course) > 0;
 }

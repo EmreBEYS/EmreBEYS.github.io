@@ -1,22 +1,44 @@
 import { useMemo, useState } from "react";
 import { Link, useParams } from "react-router-dom";
-import { getCoursesByGrade, gradeInfo } from "../data/courses";
+import {
+  getCourseFileCount,
+  getCoursesByGrade,
+  gradeInfo,
+  hasCourseNotes,
+} from "../data/courses";
 
 function GradeNotes() {
   const { gradeId } = useParams();
-  const [searchTerm, setSearchTerm] = useState("all");
+  const [query, setQuery] = useState("");
+  const [filter, setFilter] = useState("all");
 
   const courses = getCoursesByGrade(gradeId);
   const info = gradeInfo[gradeId];
 
   const filteredCourses = useMemo(() => {
-    if (searchTerm === "all") return courses;
-
     return courses.filter((course) => {
-      const text = `${course.name} ${course.description} ${course.status}`.toLowerCase();
-      return text.includes(searchTerm.toLowerCase());
+      const hasNotes = hasCourseNotes(course);
+      const matchesFilter =
+        filter === "all" ||
+        (filter === "ready" && hasNotes) ||
+        (filter === "planned" && !hasNotes);
+      const searchable = [
+        course.name,
+        course.description,
+        ...course.weeks.flatMap((week) => [
+          week.title,
+          ...(week.topics || []),
+          ...(week.pdfs || []).map((file) => file.title),
+        ]),
+      ]
+        .join(" ")
+        .toLocaleLowerCase("tr-TR");
+
+      return matchesFilter && searchable.includes(query.trim().toLocaleLowerCase("tr-TR"));
     });
-  }, [courses, searchTerm]);
+  }, [courses, filter, query]);
+
+  const readyCount = courses.filter(hasCourseNotes).length;
 
   return (
     <main className="page grade-notes-page">
@@ -24,6 +46,11 @@ function GradeNotes() {
         <p className="hero-label">COURSE LIST</p>
         <h1>{info?.title}</h1>
         <p>{info?.subtitle}</p>
+        <div className="list-summary" aria-label="Ders özeti">
+          <span><strong>{courses.length}</strong> ders</span>
+          <span><strong>{readyCount}</strong> notu hazır</span>
+          <span><strong>{courses.length - readyCount}</strong> bekliyor</span>
+        </div>
       </section>
 
       <section className="notes-toolbar">
@@ -31,32 +58,36 @@ function GradeNotes() {
           <span>🔎</span>
           <input
             type="text"
-            placeholder="Ders ara..."
-            value={searchTerm === "all" ? "" : searchTerm}
-            onChange={(e) => setSearchTerm(e.target.value || "all")}
+            placeholder="Ders, konu veya dosya ara..."
+            aria-label="Ders, konu veya dosya ara"
+            value={query}
+            onChange={(e) => setQuery(e.target.value)}
           />
         </div>
 
         <button
           type="button"
-          className={searchTerm === "all" ? "filter-chip active" : "filter-chip"}
-          onClick={() => setSearchTerm("all")}
+          className={filter === "all" ? "filter-chip active" : "filter-chip"}
+          onClick={() => setFilter("all")}
+          aria-pressed={filter === "all"}
         >
           Tüm Dersler
         </button>
 
         <button
           type="button"
-          className={searchTerm === "available" ? "filter-chip active" : "filter-chip"}
-          onClick={() => setSearchTerm("available")}
+          className={filter === "ready" ? "filter-chip active" : "filter-chip"}
+          onClick={() => setFilter("ready")}
+          aria-pressed={filter === "ready"}
         >
           Notu Olanlar
         </button>
 
         <button
           type="button"
-          className={searchTerm === "planned" ? "filter-chip active" : "filter-chip"}
-          onClick={() => setSearchTerm("planned")}
+          className={filter === "planned" ? "filter-chip active" : "filter-chip"}
+          onClick={() => setFilter("planned")}
+          aria-pressed={filter === "planned"}
         >
           Planlanan
         </button>
@@ -72,9 +103,17 @@ function GradeNotes() {
             >
               <span className="course-icon">{course.icon}</span>
 
-              <div>
+              <div className="course-row-copy">
+                <div className="course-row-heading">
                 <h2>{course.name}</h2>
+                  <span className={`availability-badge ${hasCourseNotes(course) ? "ready" : "waiting"}`}>
+                    {hasCourseNotes(course) ? `${getCourseFileCount(course)} dosya` : "Not bekleniyor"}
+                  </span>
+                </div>
                 <p>{course.description}</p>
+                {hasCourseNotes(course) && (
+                  <small>{course.weeks.length} hafta/bölüm hazır</small>
+                )}
               </div>
 
               <span className="course-arrow">→</span>
