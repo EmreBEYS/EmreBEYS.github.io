@@ -607,15 +607,25 @@ export const courses = [
     name: "Python ile Veri İşleme",
     icon: "🐍",
     description: "Python ile veri okuma, temizleme, dönüştürme, analiz etme ve görselleştirme.",
-    status: "planned",
+    status: "available",
     weeks: [
       {
-        week: 1,
-        title: "Python ile Veri İşleme Ders Notları",
-        summary: "Derse ait PDF notları ve yardımcı kaynaklar bu bölümde paylaşılacak.",
+        week: 2,
+        title: "Python ile Veri İşleme — 2. Hafta",
+        summary: "İkinci haftaya ait Python ile veri işleme ders notu.",
         topics: ["Python", "Veri işleme", "Veri analizi", "Veri görselleştirme"],
-        pdfs: [],
-        emptyMessage: "PDF yükleme alanı hazır. Ders notları eklendiğinde burada görüntülenecek.",
+        pdfs: [
+          { title: "Python ile Veri İşleme — 2. Hafta Ders Notu", type: "PDF", file: "/pdf/Python ile Veri İşleme/Python İle Veri İşleme Ders Notu-2.hafta.pdf" },
+        ],
+      },
+      {
+        week: 3,
+        title: "Python ile Veri İşleme — 3. Hafta",
+        summary: "Üçüncü haftaya ait Python ile veri işleme ders notu.",
+        topics: ["Python", "Veri işleme", "Veri analizi", "Veri görselleştirme"],
+        pdfs: [
+          { title: "Python ile Veri İşleme — 3. Hafta Ders Notu", type: "PDF", file: "/pdf/Python ile Veri İşleme/Python İle Veri İşleme Ders Notu-3.hafta.pdf" },
+        ],
       },
     ],
   },
@@ -625,8 +635,18 @@ export const courses = [
     name: "Robotik",
     icon: "🦾",
     description: "Robot sistemleri, sensörler, hareket kontrolü ve robotik uygulamalar.",
-    status: "planned",
-    weeks: [],
+    status: "available",
+    weeks: [
+      {
+        week: 3,
+        title: "Robotik — 3. Hafta",
+        summary: "Üçüncü haftaya ait robotik ders notu.",
+        topics: ["Robotik", "Robot sistemleri", "Sensörler", "Hareket kontrolü"],
+        pdfs: [
+          { title: "Robotik — 3. Hafta Ders Notu", type: "PDF", file: "/pdf/Robitik/Robotik Ders Notu-3. hafta.pdf" },
+        ],
+      },
+    ],
   },
 ];
 
