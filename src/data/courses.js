@@ -602,13 +602,22 @@ export const courses = [
     ],
   },
   {
-    id: "ag-guvenligi",
+    id: "python-ile-veri-isleme",
     grade: "gelecek-donem",
-    name: "Ağ Güvenliği",
-    icon: "🛡️",
-    description: "Ağ saldırıları, güvenlik protokolleri, şifreleme ve savunma yöntemleri.",
+    name: "Python ile Veri İşleme",
+    icon: "🐍",
+    description: "Python ile veri okuma, temizleme, dönüştürme, analiz etme ve görselleştirme.",
     status: "planned",
-    weeks: [],
+    weeks: [
+      {
+        week: 1,
+        title: "Python ile Veri İşleme Ders Notları",
+        summary: "Derse ait PDF notları ve yardımcı kaynaklar bu bölümde paylaşılacak.",
+        topics: ["Python", "Veri işleme", "Veri analizi", "Veri görselleştirme"],
+        pdfs: [],
+        emptyMessage: "PDF yükleme alanı hazır. Ders notları eklendiğinde burada görüntülenecek.",
+      },
+    ],
   },
   {
     id: "robotik",

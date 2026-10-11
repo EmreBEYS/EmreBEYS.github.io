@@ -36,6 +36,14 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/notes" element={<Notes />} />
           <Route path="/projects/:projectId" element={<ProjectDetail />} />
+          <Route
+            path="/notes/gelecek-donem/ag-guvenligi"
+            element={<Navigate to="/notes/gelecek-donem/python-ile-veri-isleme" replace />}
+          />
+          <Route
+            path="/notlar/gelecek-donem/ag-guvenligi"
+            element={<Navigate to="/notes/gelecek-donem/python-ile-veri-isleme" replace />}
+          />
           <Route path="/notes/:gradeId" element={<GradeNotes />} />
           <Route path="/notes/:gradeId/:courseId" element={<CourseDetail />} />
           <Route path="/notlar" element={<Navigate to="/notes" replace />} />

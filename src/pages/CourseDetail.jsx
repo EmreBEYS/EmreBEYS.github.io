@@ -146,7 +146,7 @@ function CourseDetail() {
                     ))}
                   </div>
                 ) : (
-                  <p>Bu haftaya ait PDF henüz eklenmedi.</p>
+                  <p>{selectedWeek.emptyMessage || "Bu haftaya ait PDF henüz eklenmedi."}</p>
                 )}
               </div>
             </div>
