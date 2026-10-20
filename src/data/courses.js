@@ -50,13 +50,41 @@ export const courses = [
         summary: "Lineer cebir dersine ait temel hafta notları ve genel kaynaklar.",
         topics: ["Matrisler", "Vektörler", "Lineer denklem sistemleri", "Haftalık ders notları"],
         pdfs: [
-          { title: "Lineer Cebir 1. Hafta Ders Notu", type: "PDF", file: "/pdf/Lineer Cebir/Lineer Cebir 1. Hafta Ders Notu.pdf" },
-          { title: "Lineer Cebir 1 ve 2 Hafta", type: "PDF", file: "/pdf/Lineer Cebir/Lineer Cebir 1 ve 2 hafta .pdf" },
-          { title: "Lineer Cebir 1, 2 ve 3 Hafta Ders Notu", type: "PDF", file: "/pdf/Lineer Cebir/Lineer Cebir 1,2ve3 hafta ders notu.pdf" },
-          { title: "Lineer Cebir 4. Hafta Ders Notu", type: "PDF", file: "/pdf/Lineer Cebir/Lineer Cebir 4.hafta Ders Notu .pdf" },
-          { title: "Lineer Cebir 5. Hafta", type: "PDF", file: "/pdf/Lineer Cebir/Lineer Cebir 5.Hafta.pdf" },
-          { title: "Lineer Cebir 7. Hafta", type: "PDF", file: "/pdf/Lineer Cebir/Lineer Cebir 7.hafta.pdf" },
-          { title: "Lineer Cebir Genel Not", type: "PDF", file: "/pdf/Lineer Cebir/Lineer Cebir.pdf" },
+          {
+            title: "Lineer Cebir 1. Hafta Ders Notu",
+            type: "PDF",
+            file: "/pdf/Lineer Cebir/Lineer Cebir 1. Hafta Ders Notu.pdf",
+          },
+          {
+            title: "Lineer Cebir 1 ve 2 Hafta",
+            type: "PDF",
+            file: "/pdf/Lineer Cebir/Lineer Cebir 1 ve 2 hafta .pdf",
+          },
+          {
+            title: "Lineer Cebir 1, 2 ve 3 Hafta Ders Notu",
+            type: "PDF",
+            file: "/pdf/Lineer Cebir/Lineer Cebir 1,2ve3 hafta ders notu.pdf",
+          },
+          {
+            title: "Lineer Cebir 4. Hafta Ders Notu",
+            type: "PDF",
+            file: "/pdf/Lineer Cebir/Lineer Cebir 4.hafta Ders Notu .pdf",
+          },
+          {
+            title: "Lineer Cebir 5. Hafta",
+            type: "PDF",
+            file: "/pdf/Lineer Cebir/Lineer Cebir 5.Hafta.pdf",
+          },
+          {
+            title: "Lineer Cebir 7. Hafta",
+            type: "PDF",
+            file: "/pdf/Lineer Cebir/Lineer Cebir 7.hafta.pdf",
+          },
+          {
+            title: "Lineer Cebir Genel Not",
+            type: "PDF",
+            file: "/pdf/Lineer Cebir/Lineer Cebir.pdf",
+          },
         ],
       },
     ],
@@ -85,7 +113,11 @@ export const courses = [
         summary: "Sayısal yöntemler dersine ait genel ders notu.",
         topics: ["Hata analizi", "Nümerik yöntemler", "Kök bulma", "Yaklaşık çözümler"],
         pdfs: [
-          { title: "Sayısal Yöntemler Ders Notu", type: "PDF", file: "/pdf/Sayısal Yöntemler/Sayısal Yöntemler Ders Notu.pdf" },
+          {
+            title: "Sayısal Yöntemler Ders Notu",
+            type: "PDF",
+            file: "/pdf/Sayısal Yöntemler/Sayısal Yöntemler Ders Notu.pdf",
+          },
         ],
       },
     ],
@@ -122,8 +154,16 @@ export const courses = [
         summary: "Analog-sayısal sistemler ve ilk hafta mantık devre konuları.",
         topics: ["Analog sistemler", "Sayısal sistemler", "Mantık devreleri"],
         pdfs: [
-          { title: "Hafta 1 - Chapter 1", type: "PPT", file: "/pdf/Mantık Devre Tasarımı/Hafta_1_ch 1.ppt" },
-          { title: "Mantık Devreleri Tasarımı Not 1", type: "PDF", file: "/pdf/Mantık Devre Tasarımı/MantıkDevreleriTasarımı_Not1_Analog ve Sayısal Sistemler.pdf" },
+          {
+            title: "Hafta 1 - Chapter 1",
+            type: "PPT",
+            file: "/pdf/Mantık Devre Tasarımı/Hafta_1_ch 1.ppt",
+          },
+          {
+            title: "Mantık Devreleri Tasarımı Not 1",
+            type: "PDF",
+            file: "/pdf/Mantık Devre Tasarımı/MantıkDevreleriTasarımı_Not1_Analog ve Sayısal Sistemler.pdf",
+          },
         ],
       },
       {
@@ -132,9 +172,21 @@ export const courses = [
         summary: "İkinci ve üçüncü hafta ders materyalleri.",
         topics: ["Mantık kapıları", "Devre tasarımı", "IO konuları"],
         pdfs: [
-          { title: "Hafta 2 - Chapter 2", type: "PPT", file: "/pdf/Mantık Devre Tasarımı/Hafta_2_ch 2.ppt" },
-          { title: "Hafta 3 - Chapter 3 Encrypt", type: "PDF", file: "/pdf/Mantık Devre Tasarımı/Hafta_3_ch 3_encrypt.pdf" },
-          { title: "Mantık Devreleri 3. Hafta IO", type: "PDF", file: "/pdf/Mantık Devre Tasarımı/mantık devreleri 3_hafta IO.pdf" },
+          {
+            title: "Hafta 2 - Chapter 2",
+            type: "PPT",
+            file: "/pdf/Mantık Devre Tasarımı/Hafta_2_ch 2.ppt",
+          },
+          {
+            title: "Hafta 3 - Chapter 3 Encrypt",
+            type: "PDF",
+            file: "/pdf/Mantık Devre Tasarımı/Hafta_3_ch 3_encrypt.pdf",
+          },
+          {
+            title: "Mantık Devreleri 3. Hafta IO",
+            type: "PDF",
+            file: "/pdf/Mantık Devre Tasarımı/mantık devreleri 3_hafta IO.pdf",
+          },
         ],
       },
     ],
@@ -153,8 +205,16 @@ export const courses = [
         summary: "Biçimsel diller, otomata teorisi ve özdevinirler için temel ders materyalleri.",
         topics: ["DFA", "NFA", "Regex", "Gramerler", "Biçimsel diller"],
         pdfs: [
-          { title: "Biçimsel Diller", type: "PDF", file: "/pdf/bicimsel-diller-ve-ozdevinirler/Biçimsel Diller.pdf" },
-          { title: "Erhan Akkaya Biçimsel Diller ve Özdevinirler", type: "PDF", file: "/pdf/bicimsel-diller-ve-ozdevinirler/Erhan Akkaya Biçimsel Diller ve Özdeviniler.pdf" },
+          {
+            title: "Biçimsel Diller",
+            type: "PDF",
+            file: "/pdf/bicimsel-diller-ve-ozdevinirler/Biçimsel Diller.pdf",
+          },
+          {
+            title: "Erhan Akkaya Biçimsel Diller ve Özdevinirler",
+            type: "PDF",
+            file: "/pdf/bicimsel-diller-ve-ozdevinirler/Erhan Akkaya Biçimsel Diller ve Özdeviniler.pdf",
+          },
         ],
       },
     ],
@@ -191,10 +251,26 @@ export const courses = [
         summary: "Veri organizasyonu dersine ait giriş ve modelleme konuları.",
         topics: ["Veri organizasyonu", "Kavramsal modelleme", "ER modeli"],
         pdfs: [
-          { title: "L02 - Giriş", type: "PDF", file: "/pdf/Veri orgabizasyonu/L02-Giriş.pdf" },
-          { title: "L03 - Kavramsal Modelleme ve ER Modeli", type: "PDF", file: "/pdf/Veri orgabizasyonu/L03-Kavramsal Modelleme ve ER Modeli.pdf" },
-          { title: "L04 - ER Model 2", type: "PDF", file: "/pdf/Veri orgabizasyonu/L04-ER Model-2.pdf" },
-          { title: "L04 - ER Model 2 Ek", type: "PDF", file: "/pdf/Veri orgabizasyonu/L04-ER Model-2 (1).pdf" },
+          {
+            title: "L02 - Giriş",
+            type: "PDF",
+            file: "/pdf/Veri orgabizasyonu/L02-Giriş.pdf",
+          },
+          {
+            title: "L03 - Kavramsal Modelleme ve ER Modeli",
+            type: "PDF",
+            file: "/pdf/Veri orgabizasyonu/L03-Kavramsal Modelleme ve ER Modeli.pdf",
+          },
+          {
+            title: "L04 - ER Model 2",
+            type: "PDF",
+            file: "/pdf/Veri orgabizasyonu/L04-ER Model-2.pdf",
+          },
+          {
+            title: "L04 - ER Model 2 Ek",
+            type: "PDF",
+            file: "/pdf/Veri orgabizasyonu/L04-ER Model-2 (1).pdf",
+          },
         ],
       },
       {
@@ -203,10 +279,26 @@ export const courses = [
         summary: "Mantıksal veri modelleri, ilişkisel veri modeli ve normal formlar.",
         topics: ["Mantıksal veri modelleri", "İlişkisel model", "Normal formlar", "UML"],
         pdfs: [
-          { title: "L06 - Mantıksal Veri Modelleri 2", type: "PDF", file: "/pdf/Veri orgabizasyonu/L06-Mantıksal Veri Modelleri-2.pdf" },
-          { title: "L07 - İlişkisel Veri Modeli", type: "PDF", file: "/pdf/Veri orgabizasyonu/L07- İlişkisel Veri Modeli, Veri Bağımlılığı ve Bütünlüğü.pdf" },
-          { title: "L08 - Relational Model Normal Formlar", type: "PDF", file: "/pdf/Veri orgabizasyonu/L08- Relational Model - Normal Formlar.pdf" },
-          { title: "L09 - UML", type: "PDF", file: "/pdf/Veri orgabizasyonu/L09-UML(Unified Modeling Language).pdf" },
+          {
+            title: "L06 - Mantıksal Veri Modelleri 2",
+            type: "PDF",
+            file: "/pdf/Veri orgabizasyonu/L06-Mantıksal Veri Modelleri-2.pdf",
+          },
+          {
+            title: "L07 - İlişkisel Veri Modeli",
+            type: "PDF",
+            file: "/pdf/Veri orgabizasyonu/L07- İlişkisel Veri Modeli, Veri Bağımlılığı ve Bütünlüğü.pdf",
+          },
+          {
+            title: "L08 - Relational Model Normal Formlar",
+            type: "PDF",
+            file: "/pdf/Veri orgabizasyonu/L08- Relational Model - Normal Formlar.pdf",
+          },
+          {
+            title: "L09 - UML",
+            type: "PDF",
+            file: "/pdf/Veri orgabizasyonu/L09-UML(Unified Modeling Language).pdf",
+          },
         ],
       },
       {
@@ -215,8 +307,16 @@ export const courses = [
         summary: "B+ Tree, hashing ve fiziksel veri saklama yapıları.",
         topics: ["Fiziksel veri modelleri", "B+ Tree", "Hashing"],
         pdfs: [
-          { title: "L10 - Fiziksel Veri Modelleri", type: "PDF", file: "/pdf/Veri orgabizasyonu/L10- Fiziksel Veri Modelleri (B+ Tree)  .pdf" },
-          { title: "L11 - B+ Tree & Hashing", type: "PDF", file: "/pdf/Veri orgabizasyonu/L11- B+ Tree & Hashing .pdf" },
+          {
+            title: "L10 - Fiziksel Veri Modelleri",
+            type: "PDF",
+            file: "/pdf/Veri orgabizasyonu/L10- Fiziksel Veri Modelleri (B+ Tree)  .pdf",
+          },
+          {
+            title: "L11 - B+ Tree & Hashing",
+            type: "PDF",
+            file: "/pdf/Veri orgabizasyonu/L11- B+ Tree & Hashing .pdf",
+          },
         ],
       },
     ],
@@ -236,8 +336,16 @@ export const courses = [
         summary: "Bilgisayar ağlarının temel yapısı, internet mimarisi ve ağ protokolleri incelenir.",
         topics: ["Ağlara giriş", "İnternet yapısı", "Protokoller", "Paket anahtarlama"],
         pdfs: [
-          { title: "Bilgisayar Ağları ve İnternet - Ders Notları", type: "PDF", file: "/pdf/Bilgisayar Ağları/01-Bilgisayar Ağları ve İnternet (Ders Notları).pdf" },
-          { title: "Bilgisayar Ağları ve İnternet", type: "PDF", file: "/pdf/Bilgisayar Ağları/01-Bilgisayar Ağları ve İnternet.pdf" },
+          {
+            title: "Bilgisayar Ağları ve İnternet - Ders Notları",
+            type: "PDF",
+            file: "/pdf/Bilgisayar Ağları/01-Bilgisayar Ağları ve İnternet (Ders Notları).pdf",
+          },
+          {
+            title: "Bilgisayar Ağları ve İnternet",
+            type: "PDF",
+            file: "/pdf/Bilgisayar Ağları/01-Bilgisayar Ağları ve İnternet.pdf",
+          },
         ],
       },
       {
@@ -246,8 +354,16 @@ export const courses = [
         summary: "HTTP, DNS ve uygulama katmanı protokolleri incelenir.",
         topics: ["Uygulama katmanı", "HTTP", "DNS", "İstemci-sunucu yapısı"],
         pdfs: [
-          { title: "Uygulama Katmanı - Ders Notları", type: "PDF", file: "/pdf/Bilgisayar Ağları/02-Uygulama Katmanı (ders notları).pdf" },
-          { title: "Uygulama Katmanı - PDF Slayt", type: "PDF", file: "/pdf/Bilgisayar Ağları/02-Uygulama Katmanı (pdf slayt).pdf" },
+          {
+            title: "Uygulama Katmanı - Ders Notları",
+            type: "PDF",
+            file: "/pdf/Bilgisayar Ağları/02-Uygulama Katmanı (ders notları).pdf",
+          },
+          {
+            title: "Uygulama Katmanı - PDF Slayt",
+            type: "PDF",
+            file: "/pdf/Bilgisayar Ağları/02-Uygulama Katmanı (pdf slayt).pdf",
+          },
         ],
       },
       {
@@ -256,7 +372,11 @@ export const courses = [
         summary: "Veri iletiminde hata tespiti için CRC yöntemi incelenir.",
         topics: ["CRC", "Hata denetimi", "Bit işlemleri", "Veri iletimi"],
         pdfs: [
-          { title: "CRC", type: "PDF", file: "/pdf/Bilgisayar Ağları/03-CRC.pdf" },
+          {
+            title: "CRC",
+            type: "PDF",
+            file: "/pdf/Bilgisayar Ağları/03-CRC.pdf",
+          },
         ],
       },
       {
@@ -265,7 +385,11 @@ export const courses = [
         summary: "Ağlarda yönlendirme mantığı ve Distance Vector algoritması incelenir.",
         topics: ["Yönlendirme", "Distance Vector", "Yönlendirme tabloları"],
         pdfs: [
-          { title: "Distance Vector", type: "PDF", file: "/pdf/Bilgisayar Ağları/distanceVector.pdf" },
+          {
+            title: "Distance Vector",
+            type: "PDF",
+            file: "/pdf/Bilgisayar Ağları/distanceVector.pdf",
+          },
         ],
       },
       {
@@ -274,7 +398,11 @@ export const courses = [
         summary: "TCP güvenliği ve TLS entegrasyonu konusu incelenir.",
         topics: ["TCP", "TLS", "Güvenli iletişim", "Şifreleme"],
         pdfs: [
-          { title: "TCP Güvenliği ve TLS Entegrasyonu", type: "PDF", file: "/pdf/Bilgisayar Ağları/TCP Güvenliği ve TLS Entegrasyonu (okuma).pdf" },
+          {
+            title: "TCP Güvenliği ve TLS Entegrasyonu",
+            type: "PDF",
+            file: "/pdf/Bilgisayar Ağları/TCP Güvenliği ve TLS Entegrasyonu (okuma).pdf",
+          },
         ],
       },
       {
@@ -283,7 +411,11 @@ export const courses = [
         summary: "Bilgisayar ağları için temel kaynak kitap.",
         topics: ["Computer Networking", "Top-Down Approach", "Ağ katmanları"],
         pdfs: [
-          { title: "Computer Networking - A Top-Down Approach 8th Edition", type: "PDF", file: "/pdf/Bilgisayar Ağları/computer-networking-a-top-down-approach-8th-edition.pdf" },
+          {
+            title: "Computer Networking - A Top-Down Approach 8th Edition",
+            type: "PDF",
+            file: "/pdf/Bilgisayar Ağları/computer-networking-a-top-down-approach-8th-edition.pdf",
+          },
         ],
       },
       {
@@ -292,10 +424,26 @@ export const courses = [
         summary: "Sınavlara hazırlık için vize, final ve çalışma soruları.",
         topics: ["Vize", "Final", "Çalışma soruları", "Sınav hazırlığı"],
         pdfs: [
-          { title: "2024-2025 Network Vize", type: "PDF", file: "/pdf/Bilgisayar Ağları/2425NetworkVize.pdf" },
-          { title: "2024-2025 Network Final", type: "PDF", file: "/pdf/Bilgisayar Ağları/2425NetworkFinal.pdf" },
-          { title: "Çalışma Soruları", type: "PDF", file: "/pdf/Bilgisayar Ağları/ÇalışmaSoruları.pdf" },
-          { title: "Çalışma Soruları 2", type: "PDF", file: "/pdf/Bilgisayar Ağları/ÇalışmaSoruları2.pdf" },
+          {
+            title: "2024-2025 Network Vize",
+            type: "PDF",
+            file: "/pdf/Bilgisayar Ağları/2425NetworkVize.pdf",
+          },
+          {
+            title: "2024-2025 Network Final",
+            type: "PDF",
+            file: "/pdf/Bilgisayar Ağları/2425NetworkFinal.pdf",
+          },
+          {
+            title: "Çalışma Soruları",
+            type: "PDF",
+            file: "/pdf/Bilgisayar Ağları/ÇalışmaSoruları.pdf",
+          },
+          {
+            title: "Çalışma Soruları 2",
+            type: "PDF",
+            file: "/pdf/Bilgisayar Ağları/ÇalışmaSoruları2.pdf",
+          },
         ],
       },
     ],
@@ -332,10 +480,26 @@ export const courses = [
         summary: "İşletim sistemi kavramları, süreçler ve temel sistem bileşenleri.",
         topics: ["İşletim sistemi", "Süreçler", "İş parçacıkları", "Senkronizasyon"],
         pdfs: [
-          { title: "3. Sınıf Güz Dönemi İşletim Sistemleri", type: "PDF", file: "/pdf/ısletim-sistemleri/3.sınıf_GuzDonemi_IsletimSistemleri.pdf" },
-          { title: "DERS2 - İşletim Sistemlerine Genel Bakış", type: "PDF", file: "/pdf/ısletim-sistemleri/DERS2-İşletim Sistemlerine Genel Bakış2.pdf" },
-          { title: "DERS3 - İşlemler", type: "PDF", file: "/pdf/ısletim-sistemleri/DERS3-İşlemler.pdf" },
-          { title: "DERS4 - İş Parçacıkları", type: "PDF", file: "/pdf/ısletim-sistemleri/DERS4-İş Parçacıkları.pdf" },
+          {
+            title: "3. Sınıf Güz Dönemi İşletim Sistemleri",
+            type: "PDF",
+            file: "/pdf/ısletim-sistemleri/3.sınıf_GuzDonemi_IsletimSistemleri.pdf",
+          },
+          {
+            title: "DERS2 - İşletim Sistemlerine Genel Bakış",
+            type: "PDF",
+            file: "/pdf/ısletim-sistemleri/DERS2-İşletim Sistemlerine Genel Bakış2.pdf",
+          },
+          {
+            title: "DERS3 - İşlemler",
+            type: "PDF",
+            file: "/pdf/ısletim-sistemleri/DERS3-İşlemler.pdf",
+          },
+          {
+            title: "DERS4 - İş Parçacıkları",
+            type: "PDF",
+            file: "/pdf/ısletim-sistemleri/DERS4-İş Parçacıkları.pdf",
+          },
         ],
       },
       {
@@ -344,11 +508,31 @@ export const courses = [
         summary: "İşlem senkronizasyonu, CPU zamanlama ve kilitlenme konuları.",
         topics: ["Senkronizasyon", "CPU zamanlama", "Kilitlenmeler", "Monitörler"],
         pdfs: [
-          { title: "DERS6 - İşlem Senkronizasyonu", type: "PDF", file: "/pdf/ısletim-sistemleri/DERS6-İşlem Senkronizasyonu1.pdf" },
-          { title: "DERS7 - CPU Zamanlama Algoritmaları", type: "PDF", file: "/pdf/ısletim-sistemleri/DERS7-CPU Zamanlama Algoritmaları Örnek Soru Üzerinde Karşılaştırma.pdf" },
-          { title: "DERS8 - Kilitlenmeler", type: "PDF", file: "/pdf/ısletim-sistemleri/DERS8-Kilitlenmeler.pdf" },
-          { title: "DERS10 - Monitörler", type: "PDF", file: "/pdf/ısletim-sistemleri/DERS10-Monitörler.pdf" },
-          { title: "DERS12 - Dosya Sistem Gerçekleştirilmesi", type: "PDF", file: "/pdf/ısletim-sistemleri/DERS12-Dosya Sistem Gerçekleştirilmesi.pdf" },
+          {
+            title: "DERS6 - İşlem Senkronizasyonu",
+            type: "PDF",
+            file: "/pdf/ısletim-sistemleri/DERS6-İşlem Senkronizasyonu1.pdf",
+          },
+          {
+            title: "DERS7 - CPU Zamanlama Algoritmaları",
+            type: "PDF",
+            file: "/pdf/ısletim-sistemleri/DERS7-CPU Zamanlama Algoritmaları Örnek Soru Üzerinde Karşılaştırma.pdf",
+          },
+          {
+            title: "DERS8 - Kilitlenmeler",
+            type: "PDF",
+            file: "/pdf/ısletim-sistemleri/DERS8-Kilitlenmeler.pdf",
+          },
+          {
+            title: "DERS10 - Monitörler",
+            type: "PDF",
+            file: "/pdf/ısletim-sistemleri/DERS10-Monitörler.pdf",
+          },
+          {
+            title: "DERS12 - Dosya Sistem Gerçekleştirilmesi",
+            type: "PDF",
+            file: "/pdf/ısletim-sistemleri/DERS12-Dosya Sistem Gerçekleştirilmesi.pdf",
+          },
         ],
       },
     ],
@@ -376,8 +560,16 @@ export const courses = [
         summary: "HTML ve CSS final notları.",
         topics: ["HTML", "CSS", "Web sayfası yapısı", "Stil düzenleme"],
         pdfs: [
-          { title: "HTML Final Notu", type: "PDF", file: "/pdf/internet-programciligi/internet prograncılığı-HTML Final Notu.pdf" },
-          { title: "CSS Final Ders Notu", type: "PDF", file: "/pdf/internet-programciligi/İnternet Programcılığı-Css Final Ders Notu.pdf" },
+          {
+            title: "HTML Final Notu",
+            type: "PDF",
+            file: "/pdf/internet-programciligi/internet prograncılığı-HTML Final Notu.pdf",
+          },
+          {
+            title: "CSS Final Ders Notu",
+            type: "PDF",
+            file: "/pdf/internet-programciligi/İnternet Programcılığı-Css Final Ders Notu.pdf",
+          },
         ],
       },
       {
@@ -386,8 +578,16 @@ export const courses = [
         summary: "JavaScript giriş ve kod yapısı ders notları.",
         topics: ["JavaScript", "Değişkenler", "Fonksiyonlar", "Kod yapısı"],
         pdfs: [
-          { title: "JavaScript Giriş Final Ders Notu", type: "PDF", file: "/pdf/internet-programciligi/İnternet Programcılığı-Java Script Giriş Final Ders Notu.pdf" },
-          { title: "JavaScript Kod Yapısı Ders Notu", type: "PDF", file: "/pdf/internet-programciligi/İnternet Programcılığı-JavaScript Kod Yapısı Ders Notu.pdf" },
+          {
+            title: "JavaScript Giriş Final Ders Notu",
+            type: "PDF",
+            file: "/pdf/internet-programciligi/İnternet Programcılığı-Java Script Giriş Final Ders Notu.pdf",
+          },
+          {
+            title: "JavaScript Kod Yapısı Ders Notu",
+            type: "PDF",
+            file: "/pdf/internet-programciligi/İnternet Programcılığı-JavaScript Kod Yapısı Ders Notu.pdf",
+          },
         ],
       },
       {
@@ -396,9 +596,21 @@ export const courses = [
         summary: "Modern web geliştirme için Node.js, React ve Bootstrap notları.",
         topics: ["Node.js", "React", "Bootstrap", "Frontend", "Backend"],
         pdfs: [
-          { title: "Node.js Final Ders Notu", type: "PDF", file: "/pdf/internet-programciligi/İnternet Programlama-Node.js Final Ders Notu.pdf" },
-          { title: "React Final Ders Notu", type: "PDF", file: "/pdf/internet-programciligi/İnternet Programlama-React Final Ders Notu.pdf" },
-          { title: "Bootstrap Final Ders Notu", type: "PDF", file: "/pdf/internet-programciligi/İnternet Programlamcılığı-Boostrap Final Ders Notu.pdf" },
+          {
+            title: "Node.js Final Ders Notu",
+            type: "PDF",
+            file: "/pdf/internet-programciligi/İnternet Programlama-Node.js Final Ders Notu.pdf",
+          },
+          {
+            title: "React Final Ders Notu",
+            type: "PDF",
+            file: "/pdf/internet-programciligi/İnternet Programlama-React Final Ders Notu.pdf",
+          },
+          {
+            title: "Bootstrap Final Ders Notu",
+            type: "PDF",
+            file: "/pdf/internet-programciligi/İnternet Programlamcılığı-Boostrap Final Ders Notu.pdf",
+          },
         ],
       },
     ],
@@ -417,7 +629,11 @@ export const courses = [
         summary: "Algoritma analizi, verimlilik, çalışma zamanı ve temel analiz kavramları incelenir.",
         topics: ["Algoritma analizi", "Verimlilik", "Çalışma zamanı", "Temel kavramlar"],
         pdfs: [
-          { title: "Efektif Algoritma Analizinin Temelleri", type: "PDF", file: "/pdf/algoritma-analizi/01-Efektif Algoritma Analizinin Temelleri.pdf" },
+          {
+            title: "Efektif Algoritma Analizinin Temelleri",
+            type: "PDF",
+            file: "/pdf/algoritma-analizi/01-Efektif Algoritma Analizinin Temelleri.pdf",
+          },
         ],
       },
       {
@@ -426,7 +642,11 @@ export const courses = [
         summary: "Big-O, Big-Theta ve Big-Omega gösterimleriyle algoritmaların büyüme davranışı incelenir.",
         topics: ["Big-O", "Big-Theta", "Big-Omega", "Zaman karmaşıklığı"],
         pdfs: [
-          { title: "Asimptotik Analiz", type: "PDF", file: "/pdf/algoritma-analizi/02-Asimptotik Analiz.pdf" },
+          {
+            title: "Asimptotik Analiz",
+            type: "PDF",
+            file: "/pdf/algoritma-analizi/02-Asimptotik Analiz.pdf",
+          },
         ],
       },
       {
@@ -435,7 +655,11 @@ export const courses = [
         summary: "Recursive ve iterative algoritma yaklaşımları ile analiz yöntemleri incelenir.",
         topics: ["Özyineleme", "Recursive algoritmalar", "Iterative algoritmalar"],
         pdfs: [
-          { title: "Özyinelemeli ve Özyinelemesiz Algoritmaların Çözümü", type: "PDF", file: "/pdf/algoritma-analizi/03-Özyinelemeli ve Özyinelemesiz Algoritmaların Çözümü.pdf" },
+          {
+            title: "Özyinelemeli ve Özyinelemesiz Algoritmaların Çözümü",
+            type: "PDF",
+            file: "/pdf/algoritma-analizi/03-Özyinelemeli ve Özyinelemesiz Algoritmaların Çözümü.pdf",
+          },
         ],
       },
       {
@@ -444,8 +668,16 @@ export const courses = [
         summary: "Hash tabloları, hash fonksiyonları ve çakışma çözümleme yöntemleri incelenir.",
         topics: ["Hashing", "Hash tabloları", "Çakışma", "Arama işlemleri"],
         pdfs: [
-          { title: "Hashing 01", type: "PDF", file: "/pdf/algoritma-analizi/05-Hashing 01.pdf" },
-          { title: "Hashing 01 Ek Dosya", type: "PDF", file: "/pdf/algoritma-analizi/05-Hashing 01 (1).pdf" },
+          {
+            title: "Hashing 01",
+            type: "PDF",
+            file: "/pdf/algoritma-analizi/05-Hashing 01.pdf",
+          },
+          {
+            title: "Hashing 01 Ek Dosya",
+            type: "PDF",
+            file: "/pdf/algoritma-analizi/05-Hashing 01 (1).pdf",
+          },
         ],
       },
       {
@@ -454,7 +686,11 @@ export const courses = [
         summary: "Alt problemlere ayırma, memoization ve dinamik programlama yaklaşımı incelenir.",
         topics: ["Dinamik programlama", "Memoization", "Alt problemler", "Optimizasyon"],
         pdfs: [
-          { title: "Dinamik Programlama 1", type: "PDF", file: "/pdf/algoritma-analizi/07-Dinamik Programlama 1.pdf" },
+          {
+            title: "Dinamik Programlama 1",
+            type: "PDF",
+            file: "/pdf/algoritma-analizi/07-Dinamik Programlama 1.pdf",
+          },
         ],
       },
       {
@@ -463,9 +699,21 @@ export const courses = [
         summary: "Genel ders notu, vize ve final çalışma dosyaları.",
         topics: ["Genel not", "Vize", "Final", "Sınav hazırlığı"],
         pdfs: [
-          { title: "Algoritma Analizi Ders Notu", type: "PDF", file: "/pdf/algoritma-analizi/Algoritma Analizi-Ders Notu.pdf" },
-          { title: "2024-2025 Final - CA", type: "PDF", file: "/pdf/algoritma-analizi/2425Final - CA (1).pdf" },
-          { title: "2024-2025 Vize Soru Cevap", type: "PDF", file: "/pdf/algoritma-analizi/2425VizeSoruCevap (1).pdf" },
+          {
+            title: "Algoritma Analizi Ders Notu",
+            type: "PDF",
+            file: "/pdf/algoritma-analizi/Algoritma Analizi-Ders Notu.pdf",
+          },
+          {
+            title: "2024-2025 Final - CA",
+            type: "PDF",
+            file: "/pdf/algoritma-analizi/2425Final - CA (1).pdf",
+          },
+          {
+            title: "2024-2025 Vize Soru Cevap",
+            type: "PDF",
+            file: "/pdf/algoritma-analizi/2425VizeSoruCevap (1).pdf",
+          },
         ],
       },
     ],
@@ -484,7 +732,11 @@ export const courses = [
         summary: "Görüntü işleme dersi için genel ders notu.",
         topics: ["Filtreleme", "Kenar bulma", "Histogram", "Eşikleme", "Görüntü analizi"],
         pdfs: [
-          { title: "Ders Notu", type: "PDF", file: "/pdf/goruntu-isleme/Ders Notu.pdf" },
+          {
+            title: "Ders Notu",
+            type: "PDF",
+            file: "/pdf/goruntu-isleme/Ders Notu.pdf",
+          },
         ],
       },
     ],
@@ -503,15 +755,51 @@ export const courses = [
         summary: "Nesne tabanlı programlama ve haftalık ders materyalleri.",
         topics: ["OOP", "Class", "Object", "UML", "Java"],
         pdfs: [
-          { title: "Nesne Tabanlı Programlama", type: "PDF", file: "/pdf/Nesne Yönelik Programlama/NesneTabanliProgramlama.pdf" },
-          { title: "Hafta 2", type: "PPTX", file: "/pdf/Nesne Yönelik Programlama/hafta_2.pptx" },
-          { title: "Hafta 3", type: "DOCX", file: "/pdf/Nesne Yönelik Programlama/hafta_3.docx" },
-          { title: "Hafta 4", type: "DOCX", file: "/pdf/Nesne Yönelik Programlama/hafta_4.docx" },
-          { title: "Hafta 4.1", type: "DOCX", file: "/pdf/Nesne Yönelik Programlama/hafta_4.1.docx" },
-          { title: "Hafta 4.2", type: "DOCX", file: "/pdf/Nesne Yönelik Programlama/hafta_4.2.docx" },
-          { title: "Hafta 5", type: "DOCX", file: "/pdf/Nesne Yönelik Programlama/hafta_5.docx" },
-          { title: "Hafta 5.1", type: "DOCX", file: "/pdf/Nesne Yönelik Programlama/hafta_5.1.docx" },
-          { title: "Hafta 5.2 Object Oriented Software Engineering", type: "DOCX", file: "/pdf/Nesne Yönelik Programlama/hafta 5.2 object-oriented-software-engineering-practical-software-development-using-uml-and-java-2005 - Kopya.docx" },
+          {
+            title: "Nesne Tabanlı Programlama",
+            type: "PDF",
+            file: "/pdf/Nesne Yönelik Programlama/NesneTabanliProgramlama.pdf",
+          },
+          {
+            title: "Hafta 2",
+            type: "PPTX",
+            file: "/pdf/Nesne Yönelik Programlama/hafta_2.pptx",
+          },
+          {
+            title: "Hafta 3",
+            type: "DOCX",
+            file: "/pdf/Nesne Yönelik Programlama/hafta_3.docx",
+          },
+          {
+            title: "Hafta 4",
+            type: "DOCX",
+            file: "/pdf/Nesne Yönelik Programlama/hafta_4.docx",
+          },
+          {
+            title: "Hafta 4.1",
+            type: "DOCX",
+            file: "/pdf/Nesne Yönelik Programlama/hafta_4.1.docx",
+          },
+          {
+            title: "Hafta 4.2",
+            type: "DOCX",
+            file: "/pdf/Nesne Yönelik Programlama/hafta_4.2.docx",
+          },
+          {
+            title: "Hafta 5",
+            type: "DOCX",
+            file: "/pdf/Nesne Yönelik Programlama/hafta_5.docx",
+          },
+          {
+            title: "Hafta 5.1",
+            type: "DOCX",
+            file: "/pdf/Nesne Yönelik Programlama/hafta_5.1.docx",
+          },
+          {
+            title: "Hafta 5.2 Object Oriented Software Engineering",
+            type: "DOCX",
+            file: "/pdf/Nesne Yönelik Programlama/hafta 5.2 object-oriented-software-engineering-practical-software-development-using-uml-and-java-2005 - Kopya.docx",
+          },
         ],
       },
     ],
@@ -530,7 +818,11 @@ export const courses = [
         summary: "Yapay zeka dersi için genel kapsamlı ders notu.",
         topics: ["Yapay zeka", "Arama algoritmaları", "Bilgi temsili", "Makine öğrenmesi"],
         pdfs: [
-          { title: "Yapay Zeka Ders Notu", type: "PDF", file: "/pdf/yapay-zeka/Yapay-zeka- Ders Notu (1).pdf" },
+          {
+            title: "Yapay Zeka Ders Notu",
+            type: "PDF",
+            file: "/pdf/yapay-zeka/Yapay-zeka- Ders Notu (1).pdf",
+          },
         ],
       },
     ],
@@ -550,7 +842,24 @@ export const courses = [
         summary: "İkinci haftaya ait veri yapıları ders notu.",
         topics: [],
         pdfs: [
-          { title: "Veri Yapıları — 2. Hafta Ders Notu", type: "PDF", file: "/pdf/Veri Yapıları/Veri Yapıları - 2. hafta Ders Notu.pdf" },
+          {
+            title: "Veri Yapıları — 2. Hafta Ders Notu",
+            type: "PDF",
+            file: "/pdf/Veri Yapıları/Veri Yapıları - 2. hafta Ders Notu.pdf",
+          },
+        ],
+      },
+      {
+        week: 4,
+        title: "Veri Yapıları — 4. Hafta",
+        summary: "Bağlı listelere giriş konusunu içeren dördüncü hafta ders notu.",
+        topics: ["Bağlı listeler", "Düğümler", "İşaretçiler"],
+        pdfs: [
+          {
+            title: "Linked Liste Giriş — 4. Hafta",
+            type: "PDF",
+            file: "/pdf/Veri Yapıları/Linked Liste Giriş-4.hafta.pdf",
+          },
         ],
       },
     ],
@@ -561,8 +870,61 @@ export const courses = [
     name: "Veri Madenciliği",
     icon: "⛏️",
     description: "Veriden bilgi çıkarımı, sınıflandırma, kümeleme ve örüntü keşfi.",
-    status: "planned",
-    weeks: [],
+    status: "available",
+    weeks: [
+      {
+        week: 1,
+        title: "Veri Madenciliği — 1. Hafta",
+        summary: "Veri madenciliğine giriş konularını içeren birinci hafta ders notu.",
+        topics: ["Veri madenciliğine giriş", "Temel kavramlar"],
+        pdfs: [
+          {
+            title: "Veri Madenciliğine Giriş — 1. Hafta",
+            type: "PDF",
+            file: "/pdf/Veri Madenciliği/Veri Madenciliğine Giriş-1.hafta.pdf",
+          },
+        ],
+      },
+      {
+        week: 2,
+        title: "Veri Madenciliği — 2. Hafta",
+        summary: "Veri ön işlemenin ilk bölümünü içeren ikinci hafta ders notu.",
+        topics: ["Veri ön işleme", "Veri temizleme"],
+        pdfs: [
+          {
+            title: "Veri Ön İşleme I — 2. Hafta",
+            type: "PDF",
+            file: "/pdf/Veri Madenciliği/Veri On Isleme-I 2. hafta.pdf",
+          },
+        ],
+      },
+      {
+        week: 3,
+        title: "Veri Madenciliği — 3. Hafta",
+        summary: "Veri ön işlemenin ikinci bölümünü içeren üçüncü hafta ders notu.",
+        topics: ["Veri ön işleme", "Veri dönüştürme"],
+        pdfs: [
+          {
+            title: "Veri Ön İşleme II — 3. Hafta",
+            type: "PDF",
+            file: "/pdf/Veri Madenciliği/Veri On İşleme-II 3. hafta.pdf",
+          },
+        ],
+      },
+      {
+        week: 4,
+        title: "Veri Madenciliği — 4. Hafta",
+        summary: "Sınıflandırma ve karar ağaçlarını içeren dördüncü hafta ders notu.",
+        topics: ["Sınıflandırma", "Karar ağaçları"],
+        pdfs: [
+          {
+            title: "Sınıflandırma ve Karar Ağaçları — 4. Hafta",
+            type: "PDF",
+            file: "/pdf/Veri Madenciliği/Sınıflandırma Karar ağaçları-4.hafta.pdf",
+          },
+        ],
+      },
+    ],
   },
   {
     id: "kontrol-teorisi",
@@ -587,7 +949,11 @@ export const courses = [
         summary: "Birinci haftaya ait ders notu.",
         topics: [],
         pdfs: [
-          { title: "Bilgisayar Mühendisliğinde Gelişmeler — 1. Hafta Ders Notu", type: "PDF", file: "/pdf/Bilgisayar Mühendisliğinde Gelişmeler/Bilgisayar Mühendisliğinde Gelişme 1.Hafta-ders Notu.pdf" },
+          {
+            title: "Bilgisayar Mühendisliğinde Gelişmeler — 1. Hafta Ders Notu",
+            type: "PDF",
+            file: "/pdf/Bilgisayar Mühendisliğinde Gelişmeler/Bilgisayar Mühendisliğinde Gelişme 1.Hafta-ders Notu.pdf",
+          },
         ],
       },
       {
@@ -596,7 +962,24 @@ export const courses = [
         summary: "İkinci haftaya ait ders notu.",
         topics: [],
         pdfs: [
-          { title: "Bilgisayar Mühendisliğinde Gelişmeler — 2. Hafta Ders Notu", type: "PDF", file: "/pdf/Bilgisayar Mühendisliğinde Gelişmeler/Bilgisayar Mühendisliğinde Gelişme 2. Hafta Ders Notu.pdf" },
+          {
+            title: "Bilgisayar Mühendisliğinde Gelişmeler — 2. Hafta Ders Notu",
+            type: "PDF",
+            file: "/pdf/Bilgisayar Mühendisliğinde Gelişmeler/Bilgisayar Mühendisliğinde Gelişme 2. Hafta Ders Notu.pdf",
+          },
+        ],
+      },
+      {
+        week: 4,
+        title: "Bilgisayar Mühendisliğinde Gelişmeler — 4. Hafta",
+        summary: "Dördüncü haftaya ait ders notu.",
+        topics: [],
+        pdfs: [
+          {
+            title: "Bilgisayar Mühendisliğinde Gelişmeler — 4. Hafta Ders Notu",
+            type: "PDF",
+            file: "/pdf/Bilgisayar Mühendisliğinde Gelişmeler/Bilgisayar Mühendisliğinde Gelişme-4.hafta Ders Notu.pdf",
+          },
         ],
       },
     ],
@@ -615,7 +998,11 @@ export const courses = [
         summary: "İkinci haftaya ait Python ile veri işleme ders notu.",
         topics: ["Python", "Veri işleme", "Veri analizi", "Veri görselleştirme"],
         pdfs: [
-          { title: "Python ile Veri İşleme — 2. Hafta Ders Notu", type: "PDF", file: "/pdf/Python ile Veri İşleme/Python İle Veri İşleme Ders Notu-2.hafta.pdf" },
+          {
+            title: "Python ile Veri İşleme — 2. Hafta Ders Notu",
+            type: "PDF",
+            file: "/pdf/Python ile Veri İşleme/Python İle Veri İşleme Ders Notu-2.hafta.pdf",
+          },
         ],
       },
       {
@@ -624,7 +1011,24 @@ export const courses = [
         summary: "Üçüncü haftaya ait Python ile veri işleme ders notu.",
         topics: ["Python", "Veri işleme", "Veri analizi", "Veri görselleştirme"],
         pdfs: [
-          { title: "Python ile Veri İşleme — 3. Hafta Ders Notu", type: "PDF", file: "/pdf/Python ile Veri İşleme/Python İle Veri İşleme Ders Notu-3.hafta.pdf" },
+          {
+            title: "Python ile Veri İşleme — 3. Hafta Ders Notu",
+            type: "PDF",
+            file: "/pdf/Python ile Veri İşleme/Python İle Veri İşleme Ders Notu-3.hafta.pdf",
+          },
+        ],
+      },
+      {
+        week: 4,
+        title: "Python ile Veri İşleme — 4. Hafta",
+        summary: "Özdeğer, özvektör ve temel bileşen analizi konularını içeren dördüncü hafta ders notu.",
+        topics: ["Özdeğer", "Özvektör", "PCA"],
+        pdfs: [
+          {
+            title: "Özdeğer, Özvektör ve PCA — 4. Hafta",
+            type: "PDF",
+            file: "/pdf/Python ile Veri İşleme/Özdeğer Özvektör ve PCA-4.hafta.pdf",
+          },
         ],
       },
     ],
@@ -643,7 +1047,11 @@ export const courses = [
         summary: "Üçüncü haftaya ait robotik ders notu.",
         topics: ["Robotik", "Robot sistemleri", "Sensörler", "Hareket kontrolü"],
         pdfs: [
-          { title: "Robotik — 3. Hafta Ders Notu", type: "PDF", file: "/pdf/Robitik/Robotik Ders Notu-3. hafta.pdf" },
+          {
+            title: "Robotik — 3. Hafta Ders Notu",
+            type: "PDF",
+            file: "/pdf/Robitik/Robotik Ders Notu-3. hafta.pdf",
+          },
         ],
       },
     ],
@@ -659,10 +1067,7 @@ export function getCourseById(courseId) {
 }
 
 export function getCourseFileCount(course) {
-  return course.weeks?.reduce(
-    (total, week) => total + (week.pdfs?.length || 0),
-    0,
-  ) || 0;
+  return course.weeks?.reduce((total, week) => total + (week.pdfs?.length || 0), 0) || 0;
 }
 
 export function hasCourseNotes(course) {
