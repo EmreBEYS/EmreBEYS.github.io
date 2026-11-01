@@ -1,11 +1,11 @@
 import { useEffect, useRef } from 'react';
 import {
-  Clock,
   Mesh,
   OrthographicCamera,
   PlaneGeometry,
   Scene,
   ShaderMaterial,
+  Timer,
   Vector2,
   Vector3,
   WebGLRenderer
@@ -364,7 +364,8 @@ export default function FloatingLines({
     const mesh = new Mesh(geometry, material);
     scene.add(mesh);
 
-    const clock = new Clock();
+    const timer = new Timer();
+    timer.connect(document);
 
     const setSize = () => {
       if (!active) return;
@@ -418,10 +419,11 @@ export default function FloatingLines({
     }
 
     let raf = 0;
-    const renderLoop = () => {
+    const renderLoop = timestamp => {
       if (!active) return;
 
-      uniforms.iTime.value = clock.getElapsedTime();
+      timer.update(timestamp);
+      uniforms.iTime.value = timer.getElapsed();
 
       if (interactive) {
         currentMouseRef.current.lerp(targetMouseRef.current, mouseDamping);
@@ -455,6 +457,7 @@ export default function FloatingLines({
 
       geometry.dispose();
       material.dispose();
+      timer.dispose();
       renderer.dispose();
       renderer.forceContextLoss();
       if (renderer.domElement.parentElement) {

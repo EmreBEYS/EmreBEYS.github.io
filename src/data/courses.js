@@ -862,6 +862,19 @@ export const courses = [
           },
         ],
       },
+      {
+        week: 6,
+        title: "Veri Yapıları — 6. Hafta",
+        summary: "Bağlı listeler üzerinde ekleme, silme ve gezinme işlemlerini içeren altıncı hafta ders notu.",
+        topics: ["Bağlı listeler", "Ekleme", "Silme", "Liste üzerinde gezinme"],
+        pdfs: [
+          {
+            title: "Linked List ve Linked List Üzerinde İşlemler — 6. Hafta",
+            type: "PDF",
+            file: "/pdf/Veri Yapıları/Linked List ve Linked List üzerinde İşlemler-6.hafta ders Notu.pdf",
+          },
+        ],
+      },
     ],
   },
   {
@@ -921,6 +934,19 @@ export const courses = [
             title: "Sınıflandırma ve Karar Ağaçları — 4. Hafta",
             type: "PDF",
             file: "/pdf/Veri Madenciliği/Sınıflandırma Karar ağaçları-4.hafta.pdf",
+          },
+        ],
+      },
+      {
+        week: 5,
+        title: "Veri Madenciliği — 5. Hafta",
+        summary: "CART, Twoing, Gini ve KNN ağırlıklı oylama konularını içeren beşinci hafta ders notu.",
+        topics: ["CART", "Twoing", "Gini", "KNN", "Ağırlıklı oylama"],
+        pdfs: [
+          {
+            title: "CART, Twoing, Gini ve KNN Ağırlıklı Oylama — 5. Hafta",
+            type: "PDF",
+            file: "/pdf/Veri Madenciliği/Cart Twoing Gini ve KNN Ağırlık oylama-5.hafta .pdf",
           },
         ],
       },
@@ -1051,6 +1077,55 @@ export const courses = [
             title: "Robotik — 3. Hafta Ders Notu",
             type: "PDF",
             file: "/pdf/Robitik/Robotik Ders Notu-3. hafta.pdf",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "is-sagligi-ve-guvenligi",
+    grade: "gelecek-donem",
+    name: "İş Sağlığı ve Güvenliği",
+    icon: "🦺",
+    description: "İş sağlığı ve güvenliğinin gelişimi, temel kavramları, amacı ve önemi.",
+    status: "available",
+    weeks: [
+      {
+        week: 1,
+        title: "İş Sağlığı ve Güvenliği — 1. Hafta",
+        summary: "İş sağlığı ve güvenliğinin kavramsal gelişimini ele alan birinci hafta ders notu.",
+        topics: ["İSG", "Temel kavramlar", "Kavramsal gelişim"],
+        pdfs: [
+          {
+            title: "İSG Kavramsal Gelişimi — 1. Hafta",
+            type: "PDF",
+            file: "/pdf/İSG/İSG Kavramsal Gelişimi-1.hafta Ders Notu.pdf",
+          },
+        ],
+      },
+      {
+        week: 2,
+        title: "İş Sağlığı ve Güvenliği — 2. Hafta",
+        summary: "İş sağlığı ve güvenliğinin tarihsel gelişimini ele alan ikinci hafta ders notu.",
+        topics: ["İSG tarihi", "Tarihsel gelişim", "Çalışma hayatı"],
+        pdfs: [
+          {
+            title: "İSG Tarihsel Gelişimi — 2. Hafta",
+            type: "PDF",
+            file: "/pdf/İSG/İSG Tarihsel Gelişimi-2.hafta.pdf",
+          },
+        ],
+      },
+      {
+        week: 3,
+        title: "İş Sağlığı ve Güvenliği — 3. Hafta",
+        summary: "İş sağlığı ve güvenliğinin amacı ile çalışanlar ve iş yerleri için önemini ele alan üçüncü hafta ders notu.",
+        topics: ["İSG'nin amacı", "Risklerin önlenmesi", "Çalışan güvenliği"],
+        pdfs: [
+          {
+            title: "İSG'nin Amacı ve Önemi — 3. Hafta",
+            type: "PDF",
+            file: "/pdf/İSG/İSG’nin Amacı ve Önemi-3.hafta Ders Notu.pdf",
           },
         ],
       },

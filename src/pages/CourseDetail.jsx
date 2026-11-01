@@ -25,7 +25,8 @@ function CourseDetail() {
   const resolvePublicFile = (filePath) => {
     if (!filePath) return "#";
     if (/^https?:\/\//i.test(filePath)) return filePath;
-    return `${import.meta.env.BASE_URL}${filePath.replace(/^\//, "")}`;
+    const normalizedPath = filePath.normalize("NFC").replace(/^\//, "");
+    return `${import.meta.env.BASE_URL}${normalizedPath}`;
   };
 
   return (
