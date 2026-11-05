@@ -22,6 +22,12 @@ function CourseDetail() {
 
   const selectedWeek = course.weeks?.[selectedWeekIndex];
 
+  const formatSectionLabel = (week) =>
+    typeof week === "number" ? `${week}. hafta` : week;
+
+  const formatSectionMarker = (week) =>
+    typeof week === "number" ? String(week).padStart(2, "0") : week.slice(0, 2).toLocaleUpperCase("tr-TR");
+
   const resolvePublicFile = (filePath) => {
     if (!filePath) return "#";
     if (/^https?:\/\//i.test(filePath)) return filePath;
@@ -78,7 +84,7 @@ function CourseDetail() {
           <aside className="week-sidebar pro-sidebar">
             <div className="sidebar-title">
               <span>Haftalar</span>
-              <strong>{selectedWeek.week}. hafta</strong>
+              <strong>{formatSectionLabel(selectedWeek.week)}</strong>
             </div>
 
             <div className="week-tabs">
@@ -89,7 +95,7 @@ function CourseDetail() {
                   className={`week-item ${selectedWeekIndex === index ? "active" : ""}`}
                   onClick={() => setSelectedWeekIndex(index)}
                 >
-                  <span>{String(week.week).padStart(2, "0")}</span>
+                  <span>{formatSectionMarker(week.week)}</span>
                   <strong>{week.title}</strong>
                 </button>
               ))}

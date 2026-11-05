@@ -958,8 +958,22 @@ export const courses = [
     name: "Kontrol Teorisi",
     icon: "🎛️",
     description: "Kontrol sistemleri, geri besleme, kararlılık ve sistem cevabı.",
-    status: "planned",
-    weeks: [],
+    status: "available",
+    weeks: [
+      {
+        week: "Vize",
+        title: "Kontrol Teorisi — Vize Ders Notu",
+        summary: "Kontrol teorisi vize sınavına hazırlık için kapsamlı ders notu.",
+        topics: ["Kontrol sistemleri", "Geri besleme", "Kararlılık", "Vize hazırlığı"],
+        pdfs: [
+          {
+            title: "Kontrol Teorisi — Vize Ders Notu",
+            type: "PDF",
+            file: "/pdf/Kontrol Teorisi/kontrol-teorisi-vize-ders-notu.pdf",
+          },
+        ],
+      },
+    ],
   },
   {
     id: "bilgisayar-muh-gelismeler",
@@ -1019,6 +1033,19 @@ export const courses = [
     status: "available",
     weeks: [
       {
+        week: 1,
+        title: "Python ile Veri İşleme — 1. Hafta",
+        summary: "Araştırma problemi belirleme ve yapay zeka destekli literatür tarama konularını içeren birinci hafta ders notu.",
+        topics: ["Araştırma problemi", "Literatür tarama", "Yapay zeka", "Akademik araştırma"],
+        pdfs: [
+          {
+            title: "Araştırma Problemi Bulma ve Yapay Zeka Destekli Literatür Tarama — 1. Hafta",
+            type: "PDF",
+            file: "/pdf/Python ile Veri İşleme/arastirma-problemi-yapay-zeka-literatur-tarama-1-hafta.pdf",
+          },
+        ],
+      },
+      {
         week: 2,
         title: "Python ile Veri İşleme — 2. Hafta",
         summary: "İkinci haftaya ait Python ile veri işleme ders notu.",
@@ -1054,6 +1081,32 @@ export const courses = [
             title: "Özdeğer, Özvektör ve PCA — 4. Hafta",
             type: "PDF",
             file: "/pdf/Python ile Veri İşleme/Özdeğer Özvektör ve PCA-4.hafta.pdf",
+          },
+        ],
+      },
+      {
+        week: 6,
+        title: "Python ile Veri İşleme — 6. Hafta",
+        summary: "Tekil değer ayrışımı ve düşük boyutlu temsil konularını içeren altıncı hafta ders notu.",
+        topics: ["SVD", "Tekil değer ayrışımı", "Boyut indirgeme", "Düşük boyutlu temsil"],
+        pdfs: [
+          {
+            title: "SVD ve Düşük Boyutlu Temsil — 6. Hafta",
+            type: "PDF",
+            file: "/pdf/Python ile Veri İşleme/svd-dusuk-boyutlu-temsil-6-hafta.pdf",
+          },
+        ],
+      },
+      {
+        week: 7,
+        title: "Python ile Veri İşleme — 7. Hafta",
+        summary: "En küçük kareler, regresyon ve kayıp fonksiyonlarını içeren yedinci hafta ders notu.",
+        topics: ["En küçük kareler", "Regresyon", "Kayıp fonksiyonları", "Model uyumu"],
+        pdfs: [
+          {
+            title: "Least Squares, Regresyon ve Loss — 7. Hafta",
+            type: "PDF",
+            file: "/pdf/Python ile Veri İşleme/least-squares-regresyon-loss-7-hafta.pdf",
           },
         ],
       },
