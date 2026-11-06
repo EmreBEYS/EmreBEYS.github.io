@@ -1022,6 +1022,32 @@ export const courses = [
           },
         ],
       },
+      {
+        week: 7,
+        title: "Bilgisayar Mühendisliğinde Gelişmeler — 7. Hafta",
+        summary: "Kuantum hesaplamanın matematiksel temelleri ve olasılık modellerini içeren yedinci hafta ders notu.",
+        topics: ["Kuantum hesaplama", "Matematiksel temeller", "Olasılık modelleri"],
+        pdfs: [
+          {
+            title: "Kuantum Hesaplamanın Matematiksel Temelleri ve Olasılık Modelleri — 7. Hafta",
+            type: "PDF",
+            file: "/pdf/Bilgisayar Mühendisliğinde Gelişmeler/Kuantum Hesplamanın Matematiksel Temelleri ve Olasık Modelleri-7.hafta.pdf",
+          },
+        ],
+      },
+      {
+        week: "Ders İçi",
+        title: "Bilgisayar Mühendisliğinde Gelişmeler — Ders İçi Notlar",
+        summary: "Ders sırasında tutulan ek çalışma notları.",
+        topics: [],
+        pdfs: [
+          {
+            title: "Bilgisayar Mühendisliğinde Gelişmeler — Ders İçi Notlar",
+            type: "PDF",
+            file: "/pdf/Bilgisayar Mühendisliğinde Gelişmeler/Bilgisyar Mühendisliğinde Gelişmler-Ders İçi Notlar.pdf",
+          },
+        ],
+      },
     ],
   },
   {
