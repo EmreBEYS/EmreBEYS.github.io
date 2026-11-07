@@ -875,6 +875,24 @@ export const courses = [
           },
         ],
       },
+      {
+        week: 7,
+        title: "Veri Yapıları — 7. Hafta",
+        summary: "Öz yinelemeli algoritmalar, bağlı liste ve yığın işlemleri ile M-Way ağaçlarına girişi içeren yedinci hafta ders notları.",
+        topics: ["Öz yinelemeli algoritmalar", "Bağlı liste işlemleri", "Yığın veri yapısı", "M-Way ağaçları"],
+        pdfs: [
+          {
+            title: "Öz Yinelemeli Algoritmalar, Bağlı Liste İşlemleri ve Yığın Veri Yapısı — 7. Hafta",
+            type: "PDF",
+            file: "/pdf/veri-yapilari/oz-yinelemeli-bagli-liste-yigin-7-hafta.pdf",
+          },
+          {
+            title: "M-Way Ağaçlarına Giriş — 7. Hafta",
+            type: "PDF",
+            file: "/pdf/veri-yapilari/m-way-agaclarina-giris-7-hafta.pdf",
+          },
+        ],
+      },
     ],
   },
   {
@@ -947,6 +965,19 @@ export const courses = [
             title: "CART, Twoing, Gini ve KNN Ağırlıklı Oylama — 5. Hafta",
             type: "PDF",
             file: "/pdf/Veri Madenciliği/Cart Twoing Gini ve KNN Ağırlık oylama-5.hafta .pdf",
+          },
+        ],
+      },
+      {
+        week: 7,
+        title: "Veri Madenciliği — 7. Hafta",
+        summary: "Kümeleme yöntemlerini içeren yedinci hafta ders notu.",
+        topics: ["Kümeleme", "Benzerlik ölçüleri", "Küme analizi"],
+        pdfs: [
+          {
+            title: "Kümeleme — 7. Hafta Ders Notu",
+            type: "PDF",
+            file: "/pdf/veri-madenciligi/kumeleme-7-hafta.pdf",
           },
         ],
       },
