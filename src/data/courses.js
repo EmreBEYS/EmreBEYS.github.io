@@ -116,7 +116,7 @@ export const courses = [
           {
             title: "Sayısal Yöntemler Ders Notu",
             type: "PDF",
-            file: "/pdf/Sayısal Yöntemler/Sayısal Yöntemler Ders Notu.pdf",
+            file: "/pdf/sayisal-yontemler/sayisal-yontemler-ders-notu.pdf",
           },
         ],
       },
@@ -208,12 +208,12 @@ export const courses = [
           {
             title: "Biçimsel Diller",
             type: "PDF",
-            file: "/pdf/bicimsel-diller-ve-ozdevinirler/Biçimsel Diller.pdf",
+            file: "/pdf/bicimsel-diller-ve-ozdevinirler/bicimsel-diller.pdf",
           },
           {
             title: "Erhan Akkaya Biçimsel Diller ve Özdevinirler",
             type: "PDF",
-            file: "/pdf/bicimsel-diller-ve-ozdevinirler/Erhan Akkaya Biçimsel Diller ve Özdeviniler.pdf",
+            file: "/pdf/bicimsel-diller-ve-ozdevinirler/erhan-akkaya-bicimsel-diller-ve-ozdeviniler.pdf",
           },
         ],
       },
@@ -563,12 +563,12 @@ export const courses = [
           {
             title: "HTML Final Notu",
             type: "PDF",
-            file: "/pdf/internet-programciligi/internet prograncılığı-HTML Final Notu.pdf",
+            file: "/pdf/internet-programciligi/html-final-notu.pdf",
           },
           {
             title: "CSS Final Ders Notu",
             type: "PDF",
-            file: "/pdf/internet-programciligi/İnternet Programcılığı-Css Final Ders Notu.pdf",
+            file: "/pdf/internet-programciligi/css-final-ders-notu.pdf",
           },
         ],
       },
@@ -581,12 +581,12 @@ export const courses = [
           {
             title: "JavaScript Giriş Final Ders Notu",
             type: "PDF",
-            file: "/pdf/internet-programciligi/İnternet Programcılığı-Java Script Giriş Final Ders Notu.pdf",
+            file: "/pdf/internet-programciligi/javascript-giris-final-ders-notu.pdf",
           },
           {
             title: "JavaScript Kod Yapısı Ders Notu",
             type: "PDF",
-            file: "/pdf/internet-programciligi/İnternet Programcılığı-JavaScript Kod Yapısı Ders Notu.pdf",
+            file: "/pdf/internet-programciligi/javascript-kod-yapisi-ders-notu.pdf",
           },
         ],
       },
@@ -599,17 +599,17 @@ export const courses = [
           {
             title: "Node.js Final Ders Notu",
             type: "PDF",
-            file: "/pdf/internet-programciligi/İnternet Programlama-Node.js Final Ders Notu.pdf",
+            file: "/pdf/internet-programciligi/nodejs-final-ders-notu.pdf",
           },
           {
             title: "React Final Ders Notu",
             type: "PDF",
-            file: "/pdf/internet-programciligi/İnternet Programlama-React Final Ders Notu.pdf",
+            file: "/pdf/internet-programciligi/react-final-ders-notu.pdf",
           },
           {
             title: "Bootstrap Final Ders Notu",
             type: "PDF",
-            file: "/pdf/internet-programciligi/İnternet Programlamcılığı-Boostrap Final Ders Notu.pdf",
+            file: "/pdf/internet-programciligi/bootstrap-final-ders-notu.pdf",
           },
         ],
       },
@@ -1190,6 +1190,19 @@ export const courses = [
           },
         ],
       },
+      {
+        week: 7,
+        title: "Robotik — 7. Hafta",
+        summary: "Graf tabanlı yöntemler ve metin özetleme konularını ele alan yedinci hafta ders notu.",
+        topics: ["Graf tabanlı yöntemler", "Metin özetleme", "Doğal dil işleme", "Robotik"],
+        pdfs: [
+          {
+            title: "Graf Tabanlı Yöntemler ve Metin Özetleme — 7. Hafta",
+            type: "PDF",
+            file: "/pdf/Robitik/graf-tabanli-yontemler-metin-ozetleme-7-hafta.pdf",
+          },
+        ],
+      },
     ],
   },
   {
@@ -1236,6 +1249,58 @@ export const courses = [
             title: "İSG'nin Amacı ve Önemi — 3. Hafta",
             type: "PDF",
             file: "/pdf/İSG/İSG’nin Amacı ve Önemi-3.hafta Ders Notu.pdf",
+          },
+        ],
+      },
+      {
+        week: 4,
+        title: "İş Sağlığı ve Güvenliği — 4. Hafta",
+        summary: "Uluslararası Çalışma Örgütü, uluslararası iş birliği ve İSG mevzuatını ele alan dördüncü hafta ders notu.",
+        topics: ["Uluslararası iş birliği", "ILO", "İSG mevzuatı", "Yasal düzenlemeler"],
+        pdfs: [
+          {
+            title: "Uluslararası İş Birliği ve İSG Mevzuatı — 4. Hafta",
+            type: "PDF",
+            file: "/pdf/isg/uluslararasi-is-birligi-ve-isg-mevzuati-4-hafta.pdf",
+          },
+        ],
+      },
+      {
+        week: 5,
+        title: "İş Sağlığı ve Güvenliği — 5. Hafta",
+        summary: "İş kazası kavramını ve iş kazalarına ilişkin verileri ele alan beşinci hafta ders notu.",
+        topics: ["İş kazası", "Temel kavramlar", "Kaza verileri", "İstatistikler"],
+        pdfs: [
+          {
+            title: "İş Kazası Kavramı ve Veriler — 5. Hafta",
+            type: "PDF",
+            file: "/pdf/isg/is-kazasi-kavrami-ve-veriler-5-hafta.pdf",
+          },
+        ],
+      },
+      {
+        week: 6,
+        title: "İş Sağlığı ve Güvenliği — 6. Hafta",
+        summary: "İş kazalarının nedenlerini ve kazaları açıklayan kuramları ele alan altıncı hafta ders notu.",
+        topics: ["Kaza nedenleri", "Kaza kuramları", "Risk etmenleri", "Kök neden analizi"],
+        pdfs: [
+          {
+            title: "Kaza Nedenleri ve Kuramlar — 6. Hafta",
+            type: "PDF",
+            file: "/pdf/isg/kaza-nedenleri-ve-kuramlar-6-hafta.pdf",
+          },
+        ],
+      },
+      {
+        week: 7,
+        title: "İş Sağlığı ve Güvenliği — 7. Hafta",
+        summary: "İş kazalarının maliyetini ve kazaları önleme yaklaşımlarını ele alan yedinci hafta ders notu.",
+        topics: ["Kaza maliyeti", "Kaza önleme", "Koruyucu yaklaşımlar", "İSG yönetimi"],
+        pdfs: [
+          {
+            title: "Kaza Maliyeti ve Önleme — 7. Hafta",
+            type: "PDF",
+            file: "/pdf/isg/kaza-maliyeti-ve-onleme-7-hafta.pdf",
           },
         ],
       },
