@@ -1167,6 +1167,19 @@ export const courses = [
           },
         ],
       },
+      {
+        week: 8,
+        title: "Python ile Veri İşleme — 8. Hafta",
+        summary: "Gradient descent ve optimizasyon konularını içeren sekizinci hafta ders notu.",
+        topics: ["Gradient descent", "Optimizasyon", "Kayıp fonksiyonları", "Türev"],
+        pdfs: [
+          {
+            title: "Gradient Descent ve Optimizasyon — 8. Hafta",
+            type: "PDF",
+            file: "/pdf/Python ile Veri İşleme/Gradient Descent ve optimizasyon-8.hafta Ders notu.pdf",
+          },
+        ],
+      },
     ],
   },
   {
