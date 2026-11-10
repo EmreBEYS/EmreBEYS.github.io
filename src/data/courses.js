@@ -904,6 +904,24 @@ export const courses = [
     status: "available",
     weeks: [
       {
+        week: "Vize",
+        title: "Veri Madenciliği — Vize Çalışmaları",
+        summary: "Hesaplamalı vize soruları ve ayrıntılı çözümlerini içeren çalışma dosyaları.",
+        topics: ["Hesaplamalı sorular", "Sınıflandırma", "Kümeleme", "Çözümlü örnekler"],
+        pdfs: [
+          {
+            title: "Veri Madenciliği — Hesaplamalı Soru Kitapçığı",
+            type: "PDF",
+            file: "/pdf/Veri Madenciliği/veri_madenciligi_hesaplamali_soru_kitapcigi.pdf",
+          },
+          {
+            title: "Veri Madenciliği — Çözümlü Cevap Anahtarı",
+            type: "PDF",
+            file: "/pdf/Veri Madenciliği/veri_madenciligi_cozumlu_cevap_anahtari.pdf",
+          },
+        ],
+      },
+      {
         week: 1,
         title: "Veri Madenciliği — 1. Hafta",
         summary: "Veri madenciliğine giriş konularını içeren birinci hafta ders notu.",
@@ -1090,6 +1108,19 @@ export const courses = [
     status: "available",
     weeks: [
       {
+        week: "Vize",
+        title: "Python ile Veri İşleme — Vize Çalışma Notu",
+        summary: "BILM470 vize sınavına hazırlık için soru ve konu anlatımlarını içeren çalışma notu.",
+        topics: ["Vize hazırlığı", "Python", "Veri işleme", "Uygulama soruları"],
+        pdfs: [
+          {
+            title: "BILM470 — Vize Soru Çalışma Notu",
+            type: "PDF",
+            file: "/pdf/Python ile Veri İşleme/BILM470_VIZE_SORU_CALISMA_NOTU.pdf",
+          },
+        ],
+      },
+      {
         week: 1,
         title: "Python ile Veri İşleme — 1. Hafta",
         summary: "Araştırma problemi belirleme ve yapay zeka destekli literatür tarama konularını içeren birinci hafta ders notu.",
@@ -1190,6 +1221,24 @@ export const courses = [
     description: "Robot sistemleri, sensörler, hareket kontrolü ve robotik uygulamalar.",
     status: "available",
     weeks: [
+      {
+        week: "Vize",
+        title: "Robotik — Vize Çalışmaları",
+        summary: "Klasik vize soruları ile ayrı cevap anahtarını içeren çalışma dosyaları.",
+        topics: ["Klasik sorular", "Robotik", "Vize hazırlığı", "Cevap anahtarı"],
+        pdfs: [
+          {
+            title: "Robotik — Klasik Vize Soruları",
+            type: "PDF",
+            file: "/pdf/Robitik/Robotik_Vize_Klasik_Sorular_Cevap_Bosluklu.pdf",
+          },
+          {
+            title: "Robotik — Klasik Vize Soruları Cevap Anahtarı",
+            type: "PDF",
+            file: "/pdf/Robitik/Robotik_Vize_Klasik_Sorular_Cevap_Anahtari.pdf",
+          },
+        ],
+      },
       {
         week: 3,
         title: "Robotik — 3. Hafta",
