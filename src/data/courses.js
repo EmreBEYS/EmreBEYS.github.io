@@ -1085,6 +1085,24 @@ export const courses = [
         ],
       },
       {
+        week: 8,
+        title: "Bilgisayar Mühendisliğinde Gelişmeler — 8. Hafta",
+        summary: "Olasılıksal hesaplama, birleşik sistemler ve ders içi çalışmaları içeren sekizinci hafta notları.",
+        topics: ["Olasılıksal hesaplama", "Birleşik sistemler", "Ders içi çalışmalar"],
+        pdfs: [
+          {
+            title: "Olasılıksal Hesaplama ve Birleşik Sistemler — 8. Hafta",
+            type: "PDF",
+            file: "/pdf/Bilgisayar Mühendisliğinde Gelişmeler/Olasılıksal Hesaplama ve Birleşik sistemler-8.hafta.pdf",
+          },
+          {
+            title: "Ders İçi Not — 8. Hafta",
+            type: "PDF",
+            file: "/pdf/Bilgisayar Mühendisliğinde Gelişmeler/Ders Içi Not-8.hafta.pdf",
+          },
+        ],
+      },
+      {
         week: "Ders İçi",
         title: "Bilgisayar Mühendisliğinde Gelişmeler — Ders İçi Notlar",
         summary: "Ders sırasında tutulan ek çalışma notları.",
@@ -1221,6 +1239,19 @@ export const courses = [
     description: "Robot sistemleri, sensörler, hareket kontrolü ve robotik uygulamalar.",
     status: "available",
     weeks: [
+      {
+        week: 1,
+        title: "Robotik — 1. Hafta",
+        summary: "Doğal dil işlemenin temel dilbilimi kavramlarını ele alan birinci hafta ders notu.",
+        topics: ["Doğal dil işleme", "Dilbilimi", "Temel kavramlar"],
+        pdfs: [
+          {
+            title: "Doğal Dil İşleme: Temel Dilbilimi Kavramları — 1. Hafta",
+            type: "PDF",
+            file: "/pdf/Robitik/Doğal Dil İşleme temel dilbilimi kavramları-1.hafta.pdf",
+          },
+        ],
+      },
       {
         week: "Vize",
         title: "Robotik — Vize Çalışmaları",
